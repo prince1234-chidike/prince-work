@@ -1,0 +1,70 @@
+body{
+    background-color: #F2E9E4;
+}
+.section{
+    font-family: 'Poppins', sans-serif;
+    width: 35%;
+    position: relative;
+    margin: 105px auto 10px;
+    border-radius: 9px;
+    box-shadow: 
+    5px 5px 10px rgba(0, 0, 0, 0.005),
+    -5px -5px 10px rgba(0, 0, 0, 0.1),
+    -5px 5px 10px rgba(0, 0, 0, 0.1),
+    5px -5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    
+}
+.Welcome{
+    font-size: 25px;
+}
+.btn-close:focus{
+    box-shadow: black;
+    border: none;
+}
+.btn-close{
+    position: absolute;
+    top: 10px;
+    left: -25px;
+}
+
+.form-control{
+    width: 60%;
+    margin: 15px 0px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+.Forget{
+    text-align: right;
+}
+.btn-log{
+    background-color: blue;
+    color: white;
+    width: 490px;
+    border: none;
+    padding: 8px 0px;
+    border-radius: 6px;
+    margin: 10px 0px;
+}
+.btn-google{
+    background-color: white;
+    color: black;
+    width: 490px;
+    border: 1px solid black;
+    padding: 8px 0px;
+    border-radius: 6px;
+    margin: 0px 0px 10px 0px;
+}
+.btn-apple{
+    background-color: black;
+    color: white;
+    width: 490px;
+    padding: 7px 0px;
+    border-radius: 6px;
+    margin: 5px 0px 15px 0px;
+}
+.icon-apple{
+    font-size: 20px;
+}
